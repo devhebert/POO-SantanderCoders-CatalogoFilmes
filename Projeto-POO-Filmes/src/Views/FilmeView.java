@@ -13,7 +13,6 @@ public class FilmeView {
     Diretor diretor2 = new Diretor("Diretor 2");
     Ator ator1 = new Ator("Ator 1");
     Ator ator2 = new Ator("Ator 2");
-
     Filme filme1 = new Filme("Filme 1", "01/01/2023", 1000000, "Descrição do Filme 1", diretor1);
     Filme filme2 = new Filme("Filme 2", "02/01/2023", 1500000, "Descrição do Filme 2", diretor2);
 

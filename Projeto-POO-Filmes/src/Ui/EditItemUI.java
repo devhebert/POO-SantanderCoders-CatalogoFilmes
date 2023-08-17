@@ -78,3 +78,4 @@ public abstract class EditItemUI<T> extends BasicUI {
 
     protected abstract void newItem();
 }
+
