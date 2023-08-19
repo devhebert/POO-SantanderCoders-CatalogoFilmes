@@ -27,10 +27,18 @@ public class FilmeView {
             @Override
             public void add(Filme item) {
                 System.out.println(item.getNome() + " adicionado.");
+                catalogo.cadastrarFilme(item);
+
             }
 
             @Override
             public boolean isNew(Filme item) {
+                if(item.equals(filme1)){
+                    System.out.println("É o mesmo");
+                }
+                else {
+                    System.out.println("Não é o mesmo");
+                }
                 return !item.equals(filme1);
             }
         });
@@ -38,4 +46,5 @@ public class FilmeView {
         // Exibe a interface do filme usando a instância de FilmeUi
         filmeUi.show();
     }
+
 }
