@@ -2,6 +2,7 @@
 
 ## Descrição
 Este programa implementa um catálogo de filmes similar ao IMDB, onde cada filme possui atributos como nome, data de lançamento, orçamento, descrição, diretor e uma lista de atores. O programa é desenvolvido em java e utiliza conceitos de Programação Orientada a Objetos (POO) como encapsulamento, herança, polimorfismo e classes abstratas.
+<br/>
 Link alternativo para o mesmo projeto seguindo a estrutura MVC: https://github.com/devhebert/POO-SantanderCoders-CatalogoFilmes-ALTERNATIVO
 
 ## Funcionalidades
