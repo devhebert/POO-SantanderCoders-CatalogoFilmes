@@ -1,6 +1,8 @@
 package Models;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class CatalogoFilmes {
@@ -9,6 +11,9 @@ public class CatalogoFilmes {
     public CatalogoFilmes() {
 
         filmes = new HashMap<>();
+    }
+    public List<Filme> listarTodosOsFilmes (){
+        return new ArrayList<>(filmes.values());
     }
 
     public void cadastrarFilme(Filme filme) {
